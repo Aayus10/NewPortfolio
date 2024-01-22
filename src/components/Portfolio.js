@@ -1,5 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
+import image1 from "./project1.png";
+import image2 from "./project2.png";
+import image3 from "./project3.jpg";
 
 export default function Portfolio() {
   return (
@@ -9,7 +12,7 @@ export default function Portfolio() {
         <div className="line"></div>
         <div className="cards">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="project1.png" class="card-img-top" alt="..." />
+            <img src={image1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Text Utility App</h5>
               <p class="card-text">
@@ -17,14 +20,14 @@ export default function Portfolio() {
                 simple text manipulations.
               </p>
               <div className="view-button">
-                <a href="#" class="btn btn-dark">
+                <a href="/" class="btn btn-dark">
                   VIEW
                 </a>
               </div>
             </div>
           </div>
           <div class="card" style={{ width: "18rem" }}>
-            <img src="project2.png" class="card-img-top" alt="..." />
+            <img src={image2} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Quiz App</h5>
               <p class="card-text">
@@ -33,14 +36,14 @@ export default function Portfolio() {
                 user interactions and a visually appealing layout.
               </p>
               <div className="view-button">
-                <a href="#" class="btn btn-dark">
+                <a href="/" class="btn btn-dark">
                   VIEW
                 </a>
               </div>
             </div>
           </div>
           <div class="card" style={{ width: "18rem" }}>
-            <img src="project3.jpg" class="card-img-top" alt="..." />
+            <img src={image3} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">
                 Telecom Customer Churn Prediction System
@@ -52,7 +55,7 @@ export default function Portfolio() {
                 concepts.
               </p>
               <div className="view-button">
-                <a href="#" class="btn btn-dark">
+                <a href="/" class="btn btn-dark">
                   VIEW
                 </a>
               </div>

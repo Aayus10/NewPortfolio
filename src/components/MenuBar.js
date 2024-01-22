@@ -3,6 +3,7 @@ import "./MenuBar.css";
 import Intro from "./Intro";
 import About from "./About";
 import Resume from "./Resume";
+import pp from "./pp.jpg";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import Portfolio from "./Portfolio";
@@ -15,7 +16,7 @@ export default function MenuBar() {
           <div className="firstmenu">
             <div className="menu">
               <div className="intro">
-                <img className="pp " src="/pp.jpg" alt="" />
+                <img className="pp " src={pp} alt="" />
                 <br />
                 Aayush Shrestha
                 <br />
@@ -56,24 +57,25 @@ export default function MenuBar() {
               <div className="pagebar">
                 <ul>
                   <li>
-                    <span class="icon">🏠</span>{" "}
-                    <Link className="link" to="/">
+                    <span className="icon">🏠</span>{" "}
+                    <Link className="link" to="/home">
                       HOME
                     </Link>
                   </li>
                   <li>
-                    <span class="icon">👤</span> <Link to="/about">ABOUT</Link>
+                    <span className="icon">👤</span>{" "}
+                    <Link to="/about">ABOUT</Link>
                   </li>
                   <li>
-                    <span class="icon">📄</span>{" "}
+                    <span className="icon">📄</span>{" "}
                     <Link to="/resume">RESUME</Link>
                   </li>
                   <li>
-                    <span class="icon">💻</span>{" "}
+                    <span className="icon">💻</span>{" "}
                     <Link to="/portfolio">PORTFOLIO</Link>
                   </li>
                   <li>
-                    <span class="icon">📧</span>{" "}
+                    <span className="icon">📧</span>{" "}
                     <Link to="/contact">CONTACT</Link>
                   </li>
                 </ul>
@@ -88,7 +90,8 @@ export default function MenuBar() {
               <Route path="/resume" element={<Resume />}></Route>
               <Route path="/portfolio" element={<Portfolio />}></Route>
               <Route path="/contact" element={<Contact />}></Route>
-              <Route path="/" element={<Intro />}></Route>
+              <Route path="/home" element={<Intro />}></Route>
+              <Route path="*" element={<Intro />}></Route>
             </Routes>
           </div>
         </div>

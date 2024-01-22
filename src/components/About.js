@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-import MenuBar from "./MenuBar";
+
+import pp from "./pp.jpg";
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
             problem-solving.
           </div>
           <div className="abt-text2">
-            <img className="pp2 " src="/pp.jpg" alt="" />
+            <img className="pp2 " src={pp} alt="" />
             <div className="desc">
               <div className="heading">React JS Based Frontend Developer</div>
               <br />
