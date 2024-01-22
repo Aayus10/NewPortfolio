@@ -1,0 +1,44 @@
+.intro-container {
+    /* display: flex; */
+    height: 100vh; /* Full height of the viewport */
+  }
+
+  /* .intro1-container{
+    
+    
+    flex: 1;
+    
+} */
+
+.introsection{
+    /* flex: 3; */
+    background-image: url('./intropic.jpg'); 
+    background-size: cover;
+    height: 107vh;
+    min-height: 100%;
+    width: 100%;
+   
+}
+
+.name{
+  margin-left: 2.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 6.5em;
+  font-size: 3.5em;
+  font-weight: bolder;
+  color: #440C09;
+}
+
+.describe{
+  margin-left: 2.2em;
+  font-size: 3.5em;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #440C09
+
+}
+.aText{
+  color: #040B14;
+  font-size: 0.9em;
+}
+

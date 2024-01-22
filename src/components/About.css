@@ -1,0 +1,76 @@
+.abt-container {
+    /* display: flex; */
+    height: 100vh; /* Full height of the viewport */
+  }
+
+  /* .first{
+    flex: 1;
+  } */
+
+
+  .second{
+    /* flex: 3; */
+    font-size: 1vw;
+  }
+
+  .topic{
+    margin-left: 3em;
+    font-size: 2.4em;
+    color: #040B14
+  }
+
+
+  .line{
+    height: 0.5em;
+    margin-left: 7em;
+    width: 28em;
+    background-color: midnightblue;
+  }
+  .abt-text{
+    padding: 2.5em;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .pp2{
+    margin-top: 1.5em;
+    height: 25em;
+    width: 25em;
+    margin-left: 3em;
+    border: 1px solid black;
+    max-width: 100%;
+}
+
+.abt-text2{
+    display: flex;
+}
+.pp2{flex: 1;}
+.desc{
+    flex: 2;
+    margin-left: 4em;
+    margin-top: 2em;
+
+}
+
+.heading{
+    font-size: 2em;
+    color: midnightblue;
+    font-weight: bold;
+    
+}
+.desc li{
+    margin-top: 0.5em;
+    list-style: none;
+    font-size: 1.4em;
+    font-stretch: expanded;
+}
+
+.desc2{
+    margin-top: 2em;
+    margin-right: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.4em;
+}
