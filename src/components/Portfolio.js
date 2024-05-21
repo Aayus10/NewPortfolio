@@ -13,7 +13,7 @@ export default function Portfolio() {
   };
 
   const showProject2 = () => {
-    const websiteUrl = "https://github.com/Aayus10/ReduxToDoList";
+    const websiteUrl = "https://aayus10.github.io/ReduxToDoList/";
 
     // Redirect to the specified website
     window.open(websiteUrl, "_blank");
