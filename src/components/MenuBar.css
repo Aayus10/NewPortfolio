@@ -83,9 +83,12 @@ span{
     color:white;
 }
 
-/* Additional styles for Chrome-specific adjustments */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    /* Add specific styles for Chrome if needed */
+@media screen and (max-width: 768px) {
+    .social-link svg {
+      /* Decrease the size of the icon on small screens */
+      width: 20px;
+      height: 20px;
+    }
   }
 
 .copyrighttxt{

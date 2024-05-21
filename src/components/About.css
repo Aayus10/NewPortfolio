@@ -49,12 +49,12 @@
 .desc{
     flex: 2;
     margin-left: 4em;
-    margin-top: 2em;
+    margin-top: 1em;
 
 }
 
 .heading{
-    font-size: 2em;
+    font-size: 1.8em;
     color: midnightblue;
     font-weight: bold;
     
@@ -63,14 +63,16 @@
     margin-top: 0.5em;
     list-style: none;
     font-size: 1.4em;
-    font-stretch: expanded;
+    color: black;
+    
 }
 
 .desc2{
+  color: black;
     margin-top: 2em;
     margin-right: 1.8em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }

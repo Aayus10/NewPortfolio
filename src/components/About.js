@@ -25,11 +25,15 @@ export default function About() {
               <li>👤 City: Kathmandu, Nepal</li>
               <li>👤 Degree: Bachelors</li>
               <li>👤 Freelance: Available</li>
+              <li>
+                👤 Interests: Data Science, SDLC (Software Development Life
+                Cycle)
+              </li>
               <div className="desc2">
-                🚀 Whether you're a fellow student, a tech enthusiast, a
-                potential collaborator, or just curious about the possibilities
-                of computer engineering, I invite you to explore the diverse
-                facets of my work and interests showcased here.
+                Whether you're a fellow student, a tech enthusiast, a potential
+                collaborator, or just curious about the possibilities of
+                computer engineering, I invite you to explore the diverse facets
+                of my work and interests showcased here.
               </div>
             </div>
           </div>

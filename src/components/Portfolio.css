@@ -1,18 +1,29 @@
 .portfolio-container{
     height: 100vh;
+    font-size: 1vw;
 }
 .cards{
     display: flex;
 }
 .card{
     background-color: #EBF5FC;
-    
+    width: 18em;
     
     margin-top: 2.5em;
     margin-right: 1em;
     flex: 0.8;
     margin-left: 3em;
     border: 2px solid midnightblue;
+}
+
+.card:hover{
+    transform: scale(1.1); 
+    background-color: cadetblue;
+    cursor: context-menu;
+}
+
+.card:hover .card-title{
+    color: #040B14;
 }
 .card-body{
     display: flex;
@@ -46,7 +57,31 @@
 }
 
 .view-button{
-    margin-left: 5em;
+    margin-left: 4.5em;
     width: max-content;
+    padding: 0.1em;
+    
+}
+
+.view-button a{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.view-button button{
+   
+    margin-top: 0.8em;
+    font-size: 1.4em;
+    font-weight: 600;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0.2em solid midnightblue;
+    border-radius: 0.1em;
     padding: 0.2em;
+   
+    
+}
+
+.view-button button:hover{
+    background-color: lightgreen;
 }

@@ -20,7 +20,7 @@ export default function MenuBar() {
                 <br />
                 Aayush Shrestha
                 <br />
-                <p>
+                <p className="social-link">
                   <a
                     href="https://www.facebook.com/aayush.shrestha.5055"
                     target="_blank"
@@ -88,9 +88,39 @@ export default function MenuBar() {
             <Routes>
               <Route path="/about" element={<About />}></Route>
               <Route path="/resume" element={<Resume />}></Route>
-              <Route path="/portfolio" element={<Portfolio />}></Route>
+              <Route
+                path="/portfolio"
+                element={
+                  <Portfolio
+                    grid={{
+                      gutter: 16,
+                      xs: 1,
+                      sm: 1,
+                      md: 3,
+                      lg: 3,
+                      xl: 5,
+                      xxl: 3,
+                    }}
+                  />
+                }
+              ></Route>
               <Route path="/contact" element={<Contact />}></Route>
-              <Route path="/home" element={<Intro />}></Route>
+              <Route
+                path="/home"
+                element={
+                  <Intro
+                    grid={{
+                      gutter: 16,
+                      xs: 1,
+                      sm: 1,
+                      md: 3,
+                      lg: 3,
+                      xl: 3,
+                      xxl: 3,
+                    }}
+                  />
+                }
+              ></Route>
               <Route path="*" element={<Intro />}></Route>
             </Routes>
           </div>
